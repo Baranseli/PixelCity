@@ -14,6 +14,8 @@
 		0770A94B228C69CB0076D527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770A949228C69CB0076D527 /* Main.storyboard */; };
 		0770A94D228C69CD0076D527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0770A94C228C69CD0076D527 /* Assets.xcassets */; };
 		0770A950228C69CD0076D527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770A94E228C69CD0076D527 /* LaunchScreen.storyboard */; };
+		07D28DBC228D9C040030E9DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D28DBB228D9C040030E9DF /* Constants.swift */; };
+		07D28DBE228DD9C00030E9DF /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D28DBD228DD9C00030E9DF /* PopVC.swift */; };
 		F188C6AA8EB7551B7C9E70C3 /* Pods_PixelCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E343F4C4E3352FDC634F9A68 /* Pods_PixelCity.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		0770A94C228C69CD0076D527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0770A94F228C69CD0076D527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0770A951228C69CD0076D527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D28DBB228D9C040030E9DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		07D28DBD228DD9C00030E9DF /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		3CA6BFDDBEED2F10DDDDAE3D /* Pods-PixelCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelCity.debug.xcconfig"; path = "Target Support Files/Pods-PixelCity/Pods-PixelCity.debug.xcconfig"; sourceTree = "<group>"; };
 		4308B7B00D71615C90381AE0 /* Pods-PixelCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelCity.release.xcconfig"; path = "Target Support Files/Pods-PixelCity/Pods-PixelCity.release.xcconfig"; sourceTree = "<group>"; };
 		E343F4C4E3352FDC634F9A68 /* Pods_PixelCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				0770A947228C69CB0076D527 /* MapVC.swift */,
+				07D28DBD228DD9C00030E9DF /* PopVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 		0770A95A228C6BE20076D527 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				07D28DBB228D9C040030E9DF /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -248,6 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D28DBE228DD9C00030E9DF /* PopVC.swift in Sources */,
+				07D28DBC228D9C040030E9DF /* Constants.swift in Sources */,
 				072775C9228CD9490066024A /* PhotoCell.swift in Sources */,
 				0770A948228C69CB0076D527 /* MapVC.swift in Sources */,
 				072775C7228CA4CB0066024A /* DroppablePin.swift in Sources */,
